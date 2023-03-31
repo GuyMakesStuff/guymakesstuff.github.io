@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel = "icon" href="Images/Icon.png">
+        <title id = "Tab Title">GuyMakesStuff - Project Info</title>
+    </head>
+    <body>
+        <!-- Website Navigation -->
+        <header>
+            <a href="index.html" class="Logo">GuyMakesStuff Banner</a></li>                     <!-- Home Logo -->
+            <nav>
+                <ul class = "Links">
+                    <li><a href="index.html"><strong>Home</strong></a></li>                     <!-- Home Button -->
+                    <li><a href="Projects.html"><strong>Projects</strong></a></li>              <!-- Projects Button-->
+                    <li><a href="About.html"><strong>About</strong></a></li>                    <!-- About Button -->
+                    <li><a href="Socials.html"><strong>Socials</strong></a></li>                <!-- Socials Button -->
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Header Gap -->
+        </br>
+        <!-- Top Segment -->
+        <div>
+            <h1 id = "Game Name" class="GameName">Game Name Here.</h1>                          <!-- Project Name -->
+            <label id = "Game Description">Game Description Here.</label>                       <!-- Project Short Description -->
+        </div>
+
+        <!-- Project Download/Play Segment -->
+        <div id = "Download" class="DownloadSegment">
+            <!-- Unity/Itch Embed frame -->
+            <iframe id = "Unity Container" mozallowfullscreen="true" allow="autoplay; fullscreen" src="" name="Game Title" scrolling="no" msallowfullscreen="true" allowfullscreen="true" webkitallowfullscreen="true" allowtransparency="true" frameborder="0" marginheight="0px" height="763px" width="1280px"></iframe>
+        </div>
+
+        <!-- Project About Segment -->
+        <div id = "About Project" class = "AboutSegment">
+            <h1 class="GameName" style="text-align: center;">About</h1>                         <!-- About Label -->
+        </div>
+
+        <!-- Project Scripts. This Segment Of The Website Is Almost Fully Automated By Javascript -->
+        <script src = "Scripts/ProjectData.js"></script>
+        <script src = "Scripts/ProjectView.js"></script>
+    </body>
+</html>
